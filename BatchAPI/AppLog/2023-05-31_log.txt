@@ -1,0 +1,3 @@
+2023-05-31 18:04:42.9147 ERROR The key value at position 0 of the call to 'DbSet<Batch>.Find' was of type 'string', which does not match the property type of 'int'.
+2023-05-31 18:05:50.7962 ERROR The key value at position 0 of the call to 'DbSet<Batch>.Find' was of type 'string', which does not match the property type of 'int'.
+2023-05-31 18:06:03.4876 ERROR The key value at position 0 of the call to 'DbSet<Batch>.Find' was of type 'string', which does not match the property type of 'int'.

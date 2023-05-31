@@ -1,0 +1,2 @@
+2023-05-30 11:48:20.3811 INFO data not found
+2023-05-30 21:02:25.8505 ERROR The key value at position 0 of the call to 'DbSet<Batch>.Find' was of type 'Guid', which does not match the property type of 'string'.
