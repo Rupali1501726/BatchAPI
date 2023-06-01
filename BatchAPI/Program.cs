@@ -34,7 +34,7 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BatchContext>(option =>
-    option.UseSqlServer(builder.Configuration.GetConnectionString("ConnString")));
+    option.UseSqlServer(builder.Configuration.GetConnectionString("AzureDBConnectionString")));
 builder.Services.AddSingleton<ILog, BatchAPI.AppLog.NLog>();
 builder.Services.AddScoped<Batch>(); 
 builder.Services.AddScoped<Files>();
